@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Sanspro;
+    font-style: normal;
+    font-weight: 400;
+    src: url("./source-sans-pro/SourceSansPro-Regular.otf");
+  } 
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sanspro;
+    
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+img {
+    width: 100%;
+}
+.sec-one {
+    width: 100%;
+    height: auto;
+    background-image: url("./images/headphones_hero_1.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 5em;
+}
+header, .sec-one-body {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;  
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+    padding-left: 3.0em;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+a:hover {
+    color: #ff6565;
+}
+a:active {
+    color: #ff6565;
+}
+button:hover {
+    opacity: 0.9;
+}
+button:active {
+    opacity: 0.9;
+}
+.sec-one-body {
+    text-align: center;
+    color: #fff;
+    max-width: 637px;
+    margin: 0 auto;
+    padding-top: 12em;
+    /* padding: 1.5em; */
+    /* margin-top: 10.7em; */
+}
+.sec-one-body h1 {
+    font-size: 32px;
+    font-weight: 700;
+    /* padding: 0 1em; */
+}
+.sec-one-body-para-one {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: -1.6em;
+    /* padding: 0 1em; */
+}
+/* .sec-one-body-para-two {
+    padding: 0 1em;
+} */
+button {
+    width: 162px;
+    height: 44px;
+    background: #ff6565;
+    border-radius: 22px;
+    color: #fff;
+    border: #ff6565;
+    margin-top: 1.8em;
+    margin-bottom: 2.9em;
+}
+#menu-button {
+    display: none;
+}
+@media screen and (max-width: 550px) {
+    ul {
+        display: none;
+    }
+    #menu-button {
+        display: block;
+    }
+    /* .sec-one-body h1 {
+        margin-top: 5em;
+      } */
+}
+
+@media screen and (min-width: 550px) {
+  /* .sec-one-body {
+    margin-top: 10em;
+  } */
+}
+@media screen and (min-width: 1020px) {
+    /* .sec-one-body {
+        margin-top: 10.7em;
+      } */
+}
+
+
